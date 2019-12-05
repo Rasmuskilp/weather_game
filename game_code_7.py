@@ -13,15 +13,15 @@ def biz_zzuu_game(number_ent):
     while number_ent != 'no':
         if 'finish' == number_ent:
             print('you have finished the game!')
-            #break
+            break
         elif biz_35(number_ent):
-            return print('bizzzzuu')
+            return 'bizzzzuu'
+        elif biz_3(number_ent):
+            return 'bizz'
         elif biz_5(number_ent):
-            return print('bizz')
-        elif biz_5(number_ent):
-            return print('zzuu')
+            return 'zzuu'
         else:
-            return print('we have no values!')
+            return 'we have no values!'
 # Learn about how to define a function
 # remember what is DRY?
 # what is separation of concerns?
